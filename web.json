@@ -1,0 +1,1257 @@
+{
+  "fileKey": "B9iMjZx2oZnxbUQf5Fu1DY",
+  "fileName": "RADD 2.0 - Web Components",
+  "timestamp": "2026-02-21T19:47:10.691Z",
+  "scanMode": "selection",
+  "filter": {
+    "prefix": "",
+    "includeDeprecated": true
+  },
+  "stats": {
+    "totalComponentSets": 2,
+    "totalStandaloneComponents": 0,
+    "totalVariants": 4,
+    "deprecatedCount": 0,
+    "dotPrefixCount": 2
+  },
+  "componentSets": [
+    {
+      "id": "21:2421",
+      "name": ".RADD Text Field Icon Large",
+      "type": "COMPONENT_SET",
+      "key": "3fe3c501bab50dfefe53d97b9b6054fb1f6ac6fd",
+      "deprecated": false,
+      "description": "#COMPONENT-NAME=RADD Text Field Icon\n#PROP-Size=Large",
+      "descriptionMarkdown": "#COMPONENT-NAME=RADD Text Field Icon\n#PROP-Size=Large",
+      "size": {
+        "width": 176,
+        "height": 88
+      },
+      "variantProperties": {
+        "Type": {
+          "values": [
+            "Button Container",
+            "Icon Container"
+          ]
+        }
+      },
+      "componentProperties": {
+        "Icon#6902:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "2369:37",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4e633e82a48317af4ce2a10b17c71f68facd0a2f"
+            }
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Icon Container",
+          "preferredValues": []
+        }
+      },
+      "variants": [
+        {
+          "id": "21:2422",
+          "name": "Type=Icon Container",
+          "type": "COMPONENT",
+          "key": "b8473d5548d86ad513092886d56cd8ff0b2a8f0f",
+          "deprecated": false,
+          "description": "",
+          "descriptionMarkdown": "",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "layout": {
+            "layoutMode": "HORIZONTAL",
+            "primaryAxisAlignItems": "CENTER",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "FIXED",
+            "itemSpacing": 0,
+            "counterAxisSpacing": null,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "layoutWrap": "NO_WRAP",
+            "boundVariables": {
+              "itemSpacing": null,
+              "paddingTop": null,
+              "paddingBottom": null,
+              "paddingLeft": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490",
+              "paddingRight": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "fills": null,
+          "stroke": null,
+          "radius": {
+            "cornerRadius": 0,
+            "topLeftRadius": 0,
+            "topRightRadius": 0,
+            "bottomLeftRadius": 0,
+            "bottomRightRadius": 0,
+            "cornerSmoothing": 0,
+            "boundVariables": {
+              "cornerRadius": null,
+              "topLeftRadius": null,
+              "topRightRadius": null,
+              "bottomLeftRadius": null,
+              "bottomRightRadius": null
+            }
+          },
+          "effects": [],
+          "componentProperties": {},
+          "variantValues": {
+            "Type": "Icon Container"
+          },
+          "layers": [
+            {
+              "id": "21:2423",
+              "name": "Icon",
+              "type": "INSTANCE",
+              "visible": true,
+              "locked": false,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "size": {
+                "width": 24,
+                "height": 24
+              },
+              "layout": {
+                "layoutMode": "NONE",
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              },
+              "position": null,
+              "layoutPositioning": "AUTO",
+              "fills": null,
+              "stroke": null,
+              "radius": {
+                "cornerRadius": 0,
+                "topLeftRadius": 0,
+                "topRightRadius": 0,
+                "bottomLeftRadius": 0,
+                "bottomRightRadius": 0,
+                "cornerSmoothing": 0,
+                "boundVariables": {
+                  "cornerRadius": null,
+                  "topLeftRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971",
+                  "topRightRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971",
+                  "bottomLeftRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971",
+                  "bottomRightRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971"
+                }
+              },
+              "effects": [],
+              "exportSettings": null,
+              "instance": {
+                "mainComponentId": "2369:37",
+                "mainComponentName": "Type=Standard",
+                "mainComponentSetId": "2369:36",
+                "componentProperties": {
+                  "Type": {
+                    "type": "VARIANT",
+                    "value": "Standard"
+                  }
+                },
+                "overrides": [
+                  {
+                    "id": "21:2423",
+                    "overriddenFields": [
+                      "boundVariables",
+                      "name"
+                    ]
+                  },
+                  {
+                    "id": "I21:2423;334:1416",
+                    "overriddenFields": [
+                      "fills"
+                    ]
+                  }
+                ],
+                "resolvedOverrides": [
+                  {
+                    "id": "I21:2423;334:1416",
+                    "name": "Icon",
+                    "overriddenFields": [
+                      "fills"
+                    ],
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "hex": "#b3b3b3",
+                        "opacity": 1,
+                        "boundVariable": {
+                          "id": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                        },
+                        "tokenName": "colours/basic/text-recessive",
+                        "tokenId": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "id": "I21:2423;334:1416",
+                  "name": "Icon",
+                  "type": "VECTOR",
+                  "visible": true,
+                  "locked": false,
+                  "opacity": 1,
+                  "blendMode": "PASS_THROUGH",
+                  "size": {
+                    "width": 20,
+                    "height": 14
+                  },
+                  "layout": {
+                    "layoutMode": "NONE",
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED"
+                  },
+                  "position": null,
+                  "layoutPositioning": "AUTO",
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "hex": "#b3b3b3",
+                      "opacity": 1,
+                      "boundVariable": {
+                        "id": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                      },
+                      "tokenName": "colours/basic/text-recessive",
+                      "tokenId": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                    }
+                  ],
+                  "stroke": null,
+                  "radius": {
+                    "cornerRadius": 0,
+                    "cornerSmoothing": 0,
+                    "boundVariables": {
+                      "cornerRadius": null,
+                      "topLeftRadius": null,
+                      "topRightRadius": null,
+                      "bottomLeftRadius": null,
+                      "bottomRightRadius": null
+                    }
+                  },
+                  "effects": [],
+                  "exportSettings": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "21:2424",
+          "name": "Type=Button Container",
+          "type": "COMPONENT",
+          "key": "a933197dff00da6ab477e171da4adb54fe121688",
+          "deprecated": false,
+          "description": "",
+          "descriptionMarkdown": "",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "layout": {
+            "layoutMode": "HORIZONTAL",
+            "primaryAxisAlignItems": "CENTER",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "FIXED",
+            "itemSpacing": 0,
+            "counterAxisSpacing": null,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "layoutWrap": "NO_WRAP",
+            "boundVariables": {
+              "itemSpacing": null,
+              "paddingTop": null,
+              "paddingBottom": null,
+              "paddingLeft": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490",
+              "paddingRight": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "fills": null,
+          "stroke": null,
+          "radius": {
+            "cornerRadius": 0,
+            "topLeftRadius": 0,
+            "topRightRadius": 0,
+            "bottomLeftRadius": 0,
+            "bottomRightRadius": 0,
+            "cornerSmoothing": 0,
+            "boundVariables": {
+              "cornerRadius": null,
+              "topLeftRadius": null,
+              "topRightRadius": null,
+              "bottomLeftRadius": null,
+              "bottomRightRadius": null
+            }
+          },
+          "effects": [],
+          "componentProperties": {},
+          "variantValues": {
+            "Type": "Button Container"
+          },
+          "layers": [
+            {
+              "id": "21:2425",
+              "name": "RADD Icon Button",
+              "type": "INSTANCE",
+              "visible": true,
+              "locked": false,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "size": {
+                "width": 48,
+                "height": 48
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "AUTO",
+                "itemSpacing": 0,
+                "counterAxisSpacing": null,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "layoutWrap": "NO_WRAP",
+                "boundVariables": {
+                  "itemSpacing": null,
+                  "paddingTop": null,
+                  "paddingBottom": null,
+                  "paddingLeft": null,
+                  "paddingRight": null
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              },
+              "position": null,
+              "layoutPositioning": "AUTO",
+              "fills": null,
+              "stroke": null,
+              "radius": {
+                "cornerRadius": 999,
+                "topLeftRadius": 999,
+                "topRightRadius": 999,
+                "bottomLeftRadius": 999,
+                "bottomRightRadius": 999,
+                "cornerSmoothing": 0,
+                "boundVariables": {
+                  "cornerRadius": null,
+                  "topLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                  "topRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                  "bottomLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                  "bottomRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764"
+                }
+              },
+              "effects": [],
+              "exportSettings": null,
+              "instance": {
+                "mainComponentId": "14:1531",
+                "mainComponentName": "Variant=Ghost, Size=Medium, State=Standard, Disabled=False, Loading=False, Destructive=False",
+                "mainComponentSetId": "14:1381",
+                "componentProperties": {
+                  "Icon#3892:265": {
+                    "type": "INSTANCE_SWAP",
+                    "value": "13:283"
+                  },
+                  "Variant": {
+                    "type": "VARIANT",
+                    "value": "Ghost"
+                  },
+                  "Size": {
+                    "type": "VARIANT",
+                    "value": "Medium"
+                  },
+                  "State": {
+                    "type": "VARIANT",
+                    "value": "Standard"
+                  },
+                  "Disabled": {
+                    "type": "VARIANT",
+                    "value": "False"
+                  },
+                  "Loading": {
+                    "type": "VARIANT",
+                    "value": "False"
+                  },
+                  "Destructive": {
+                    "type": "VARIANT",
+                    "value": "False"
+                  }
+                },
+                "overrides": [
+                  {
+                    "id": "I21:2425;14:1533",
+                    "overriddenFields": [
+                      "boundVariables"
+                    ]
+                  },
+                  {
+                    "id": "I21:2425;14:1533;1:500",
+                    "overriddenFields": [
+                      "fills"
+                    ]
+                  }
+                ],
+                "resolvedOverrides": [
+                  {
+                    "id": "I21:2425;14:1533;1:500",
+                    "name": "icon",
+                    "overriddenFields": [
+                      "fills"
+                    ],
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "hex": "#ffffff",
+                        "opacity": 1,
+                        "boundVariable": {
+                          "id": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                        },
+                        "tokenName": "colours/basic/text",
+                        "tokenId": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "id": "I21:2425;14:1532",
+                  "name": "Button BG",
+                  "type": "FRAME",
+                  "visible": true,
+                  "locked": false,
+                  "opacity": 1,
+                  "blendMode": "PASS_THROUGH",
+                  "size": {
+                    "width": 48,
+                    "height": 48
+                  },
+                  "layout": {
+                    "layoutMode": "NONE",
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED"
+                  },
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    }
+                  },
+                  "layoutPositioning": "ABSOLUTE",
+                  "fills": null,
+                  "stroke": null,
+                  "radius": {
+                    "cornerRadius": 999,
+                    "topLeftRadius": 999,
+                    "topRightRadius": 999,
+                    "bottomLeftRadius": 999,
+                    "bottomRightRadius": 999,
+                    "cornerSmoothing": 0,
+                    "boundVariables": {
+                      "cornerRadius": null,
+                      "topLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                      "topRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                      "bottomLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                      "bottomRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764"
+                    }
+                  },
+                  "effects": [],
+                  "exportSettings": null
+                },
+                {
+                  "id": "I21:2425;14:1533",
+                  "name": "Show Password",
+                  "type": "INSTANCE",
+                  "visible": true,
+                  "locked": false,
+                  "opacity": 1,
+                  "blendMode": "PASS_THROUGH",
+                  "size": {
+                    "width": 16,
+                    "height": 16
+                  },
+                  "layout": {
+                    "layoutMode": "NONE",
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED"
+                  },
+                  "position": null,
+                  "layoutPositioning": "AUTO",
+                  "fills": null,
+                  "stroke": null,
+                  "radius": {
+                    "cornerRadius": 0,
+                    "topLeftRadius": 0,
+                    "topRightRadius": 0,
+                    "bottomLeftRadius": 0,
+                    "bottomRightRadius": 0,
+                    "cornerSmoothing": 0,
+                    "boundVariables": {
+                      "cornerRadius": null,
+                      "topLeftRadius": null,
+                      "topRightRadius": null,
+                      "bottomLeftRadius": null,
+                      "bottomRightRadius": null
+                    }
+                  },
+                  "effects": [],
+                  "exportSettings": null,
+                  "instance": {
+                    "mainComponentId": "13:283",
+                    "mainComponentName": "Type=Standard",
+                    "mainComponentSetId": "13:282",
+                    "componentProperties": {
+                      "Type": {
+                        "type": "VARIANT",
+                        "value": "Standard"
+                      }
+                    },
+                    "overrides": [
+                      {
+                        "id": "I21:2425;14:1533",
+                        "overriddenFields": [
+                          "boundVariables"
+                        ]
+                      },
+                      {
+                        "id": "I21:2425;14:1533;1:500",
+                        "overriddenFields": [
+                          "fills"
+                        ]
+                      }
+                    ],
+                    "resolvedOverrides": [
+                      {
+                        "id": "I21:2425;14:1533;1:500",
+                        "name": "icon",
+                        "overriddenFields": [
+                          "fills"
+                        ],
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "hex": "#ffffff",
+                            "opacity": 1,
+                            "boundVariable": {
+                              "id": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                            },
+                            "tokenName": "colours/basic/text",
+                            "tokenId": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "children": [
+                    {
+                      "id": "I21:2425;14:1533;1:500",
+                      "name": "icon",
+                      "type": "VECTOR",
+                      "visible": true,
+                      "locked": false,
+                      "opacity": 1,
+                      "blendMode": "PASS_THROUGH",
+                      "size": {
+                        "width": 15.600001335144043,
+                        "height": 10.666666984558105
+                      },
+                      "layout": {
+                        "layoutMode": "NONE",
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutSizingHorizontal": "FIXED",
+                        "layoutSizingVertical": "FIXED"
+                      },
+                      "position": null,
+                      "layoutPositioning": "AUTO",
+                      "fills": [
+                        {
+                          "type": "SOLID",
+                          "hex": "#ffffff",
+                          "opacity": 1,
+                          "boundVariable": {
+                            "id": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                          },
+                          "tokenName": "colours/basic/text",
+                          "tokenId": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                        }
+                      ],
+                      "stroke": null,
+                      "radius": {
+                        "cornerRadius": 0,
+                        "cornerSmoothing": 0,
+                        "boundVariables": {
+                          "cornerRadius": null,
+                          "topLeftRadius": null,
+                          "topRightRadius": null,
+                          "bottomLeftRadius": null,
+                          "bottomRightRadius": null
+                        }
+                      },
+                      "effects": [],
+                      "exportSettings": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2404:252",
+      "name": ".RADD Text Field Icon Large",
+      "type": "COMPONENT_SET",
+      "key": "a4c2bda82cdf46f57b7eb6a08e4bceeeb2b88cb7",
+      "deprecated": false,
+      "description": "#COMPONENT-NAME=RADD Text Field Icon\n#PROP-Size=Large",
+      "descriptionMarkdown": "#COMPONENT-NAME=RADD Text Field Icon\n#PROP-Size=Large",
+      "size": {
+        "width": 176,
+        "height": 88
+      },
+      "variantProperties": {
+        "Type": {
+          "values": [
+            "Button Container",
+            "Icon Container"
+          ]
+        }
+      },
+      "componentProperties": {
+        "Icon#6902:0": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "2369:37",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "4e633e82a48317af4ce2a10b17c71f68facd0a2f"
+            }
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Icon Container",
+          "preferredValues": []
+        }
+      },
+      "variants": [
+        {
+          "id": "2404:253",
+          "name": "Type=Icon Container",
+          "type": "COMPONENT",
+          "key": "19cd22d8ef56b098be4a75a944b76a273efbff72",
+          "deprecated": false,
+          "description": "",
+          "descriptionMarkdown": "",
+          "size": {
+            "width": 48,
+            "height": 24
+          },
+          "layout": {
+            "layoutMode": "HORIZONTAL",
+            "primaryAxisAlignItems": "CENTER",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "AUTO",
+            "itemSpacing": 0,
+            "counterAxisSpacing": null,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "layoutWrap": "NO_WRAP",
+            "boundVariables": {
+              "itemSpacing": null,
+              "paddingTop": null,
+              "paddingBottom": null,
+              "paddingLeft": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490",
+              "paddingRight": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG"
+          },
+          "fills": null,
+          "stroke": null,
+          "radius": {
+            "cornerRadius": 0,
+            "topLeftRadius": 0,
+            "topRightRadius": 0,
+            "bottomLeftRadius": 0,
+            "bottomRightRadius": 0,
+            "cornerSmoothing": 0,
+            "boundVariables": {
+              "cornerRadius": null,
+              "topLeftRadius": null,
+              "topRightRadius": null,
+              "bottomLeftRadius": null,
+              "bottomRightRadius": null
+            }
+          },
+          "effects": [],
+          "componentProperties": {},
+          "variantValues": {
+            "Type": "Icon Container"
+          },
+          "layers": [
+            {
+              "id": "2404:254",
+              "name": "Icon",
+              "type": "INSTANCE",
+              "visible": true,
+              "locked": false,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "size": {
+                "width": 24,
+                "height": 24
+              },
+              "layout": {
+                "layoutMode": "NONE",
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED"
+              },
+              "position": null,
+              "layoutPositioning": "AUTO",
+              "fills": null,
+              "stroke": null,
+              "radius": {
+                "cornerRadius": 0,
+                "topLeftRadius": 0,
+                "topRightRadius": 0,
+                "bottomLeftRadius": 0,
+                "bottomRightRadius": 0,
+                "cornerSmoothing": 0,
+                "boundVariables": {
+                  "cornerRadius": null,
+                  "topLeftRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971",
+                  "topRightRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971",
+                  "bottomLeftRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971",
+                  "bottomRightRadius": "VariableID:d09183e683d6299030342690800aca3e301857e1/2996:4971"
+                }
+              },
+              "effects": [],
+              "exportSettings": null,
+              "instance": {
+                "mainComponentId": "2369:37",
+                "mainComponentName": "Type=Standard",
+                "mainComponentSetId": "2369:36",
+                "componentProperties": {
+                  "Type": {
+                    "type": "VARIANT",
+                    "value": "Standard"
+                  }
+                },
+                "overrides": [
+                  {
+                    "id": "2404:254",
+                    "overriddenFields": [
+                      "boundVariables",
+                      "name"
+                    ]
+                  },
+                  {
+                    "id": "I2404:254;334:1416",
+                    "overriddenFields": [
+                      "fills"
+                    ]
+                  }
+                ],
+                "resolvedOverrides": [
+                  {
+                    "id": "I2404:254;334:1416",
+                    "name": "Icon",
+                    "overriddenFields": [
+                      "fills"
+                    ],
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "hex": "#b3b3b3",
+                        "opacity": 1,
+                        "boundVariable": {
+                          "id": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                        },
+                        "tokenName": "colours/basic/text-recessive",
+                        "tokenId": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "id": "I2404:254;334:1416",
+                  "name": "Icon",
+                  "type": "VECTOR",
+                  "visible": true,
+                  "locked": false,
+                  "opacity": 1,
+                  "blendMode": "PASS_THROUGH",
+                  "size": {
+                    "width": 20,
+                    "height": 14
+                  },
+                  "layout": {
+                    "layoutMode": "NONE",
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED"
+                  },
+                  "position": null,
+                  "layoutPositioning": "AUTO",
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "hex": "#b3b3b3",
+                      "opacity": 1,
+                      "boundVariable": {
+                        "id": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                      },
+                      "tokenName": "colours/basic/text-recessive",
+                      "tokenId": "VariableID:92a755a20764614355e7160aa1b1e6c5c2c2fc54/2996:3029"
+                    }
+                  ],
+                  "stroke": null,
+                  "radius": {
+                    "cornerRadius": 0,
+                    "cornerSmoothing": 0,
+                    "boundVariables": {
+                      "cornerRadius": null,
+                      "topLeftRadius": null,
+                      "topRightRadius": null,
+                      "bottomLeftRadius": null,
+                      "bottomRightRadius": null
+                    }
+                  },
+                  "effects": [],
+                  "exportSettings": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2404:255",
+          "name": "Type=Button Container",
+          "type": "COMPONENT",
+          "key": "1dd9c29b0586b97275f018fd9cec5cb7390f0b34",
+          "deprecated": false,
+          "description": "",
+          "descriptionMarkdown": "",
+          "size": {
+            "width": 48,
+            "height": 48
+          },
+          "layout": {
+            "layoutMode": "HORIZONTAL",
+            "primaryAxisAlignItems": "CENTER",
+            "counterAxisAlignItems": "CENTER",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "FIXED",
+            "itemSpacing": 0,
+            "counterAxisSpacing": null,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 12,
+            "paddingRight": 12,
+            "layoutWrap": "NO_WRAP",
+            "boundVariables": {
+              "itemSpacing": null,
+              "paddingTop": null,
+              "paddingBottom": null,
+              "paddingLeft": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490",
+              "paddingRight": "VariableID:2931670db82fd461865a605e6a783c55999fa7b8/2996:4490"
+            },
+            "layoutAlign": "INHERIT",
+            "layoutGrow": 0,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "FIXED"
+          },
+          "fills": null,
+          "stroke": null,
+          "radius": {
+            "cornerRadius": 0,
+            "topLeftRadius": 0,
+            "topRightRadius": 0,
+            "bottomLeftRadius": 0,
+            "bottomRightRadius": 0,
+            "cornerSmoothing": 0,
+            "boundVariables": {
+              "cornerRadius": null,
+              "topLeftRadius": null,
+              "topRightRadius": null,
+              "bottomLeftRadius": null,
+              "bottomRightRadius": null
+            }
+          },
+          "effects": [],
+          "componentProperties": {},
+          "variantValues": {
+            "Type": "Button Container"
+          },
+          "layers": [
+            {
+              "id": "2404:256",
+              "name": "RADD Icon Button",
+              "type": "INSTANCE",
+              "visible": true,
+              "locked": false,
+              "opacity": 1,
+              "blendMode": "PASS_THROUGH",
+              "size": {
+                "width": 48,
+                "height": 48
+              },
+              "layout": {
+                "layoutMode": "HORIZONTAL",
+                "primaryAxisAlignItems": "CENTER",
+                "counterAxisAlignItems": "CENTER",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "AUTO",
+                "itemSpacing": 0,
+                "counterAxisSpacing": null,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "layoutWrap": "NO_WRAP",
+                "boundVariables": {
+                  "itemSpacing": null,
+                  "paddingTop": null,
+                  "paddingBottom": null,
+                  "paddingLeft": null,
+                  "paddingRight": null
+                },
+                "layoutAlign": "INHERIT",
+                "layoutGrow": 0,
+                "layoutSizingHorizontal": "HUG",
+                "layoutSizingVertical": "HUG"
+              },
+              "position": null,
+              "layoutPositioning": "AUTO",
+              "fills": null,
+              "stroke": null,
+              "radius": {
+                "cornerRadius": 999,
+                "topLeftRadius": 999,
+                "topRightRadius": 999,
+                "bottomLeftRadius": 999,
+                "bottomRightRadius": 999,
+                "cornerSmoothing": 0,
+                "boundVariables": {
+                  "cornerRadius": null,
+                  "topLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                  "topRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                  "bottomLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                  "bottomRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764"
+                }
+              },
+              "effects": [],
+              "exportSettings": null,
+              "instance": {
+                "mainComponentId": "14:1531",
+                "mainComponentName": "Variant=Ghost, Size=Medium, State=Standard, Disabled=False, Loading=False, Destructive=False",
+                "mainComponentSetId": "14:1381",
+                "componentProperties": {
+                  "Icon#3892:265": {
+                    "type": "INSTANCE_SWAP",
+                    "value": "13:283"
+                  },
+                  "Variant": {
+                    "type": "VARIANT",
+                    "value": "Ghost"
+                  },
+                  "Size": {
+                    "type": "VARIANT",
+                    "value": "Medium"
+                  },
+                  "State": {
+                    "type": "VARIANT",
+                    "value": "Standard"
+                  },
+                  "Disabled": {
+                    "type": "VARIANT",
+                    "value": "False"
+                  },
+                  "Loading": {
+                    "type": "VARIANT",
+                    "value": "False"
+                  },
+                  "Destructive": {
+                    "type": "VARIANT",
+                    "value": "False"
+                  }
+                },
+                "overrides": [
+                  {
+                    "id": "I2404:256;14:1533",
+                    "overriddenFields": [
+                      "boundVariables"
+                    ]
+                  },
+                  {
+                    "id": "I2404:256;14:1533;1:500",
+                    "overriddenFields": [
+                      "fills"
+                    ]
+                  }
+                ],
+                "resolvedOverrides": [
+                  {
+                    "id": "I2404:256;14:1533;1:500",
+                    "name": "icon",
+                    "overriddenFields": [
+                      "fills"
+                    ],
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "hex": "#ffffff",
+                        "opacity": 1,
+                        "boundVariable": {
+                          "id": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                        },
+                        "tokenName": "colours/basic/text",
+                        "tokenId": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "id": "I2404:256;14:1532",
+                  "name": "Button BG",
+                  "type": "FRAME",
+                  "visible": true,
+                  "locked": false,
+                  "opacity": 1,
+                  "blendMode": "PASS_THROUGH",
+                  "size": {
+                    "width": 48,
+                    "height": 48
+                  },
+                  "layout": {
+                    "layoutMode": "NONE",
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED"
+                  },
+                  "position": {
+                    "x": 0,
+                    "y": 0,
+                    "constraints": {
+                      "horizontal": "STRETCH",
+                      "vertical": "STRETCH"
+                    }
+                  },
+                  "layoutPositioning": "ABSOLUTE",
+                  "fills": null,
+                  "stroke": null,
+                  "radius": {
+                    "cornerRadius": 999,
+                    "topLeftRadius": 999,
+                    "topRightRadius": 999,
+                    "bottomLeftRadius": 999,
+                    "bottomRightRadius": 999,
+                    "cornerSmoothing": 0,
+                    "boundVariables": {
+                      "cornerRadius": null,
+                      "topLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                      "topRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                      "bottomLeftRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764",
+                      "bottomRightRadius": "VariableID:8b95b971962e7d7c08befe8073fe5c586078d669/2:3764"
+                    }
+                  },
+                  "effects": [],
+                  "exportSettings": null
+                },
+                {
+                  "id": "I2404:256;14:1533",
+                  "name": "Show Password",
+                  "type": "INSTANCE",
+                  "visible": true,
+                  "locked": false,
+                  "opacity": 1,
+                  "blendMode": "PASS_THROUGH",
+                  "size": {
+                    "width": 16,
+                    "height": 16
+                  },
+                  "layout": {
+                    "layoutMode": "NONE",
+                    "layoutAlign": "INHERIT",
+                    "layoutGrow": 0,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED"
+                  },
+                  "position": null,
+                  "layoutPositioning": "AUTO",
+                  "fills": null,
+                  "stroke": null,
+                  "radius": {
+                    "cornerRadius": 0,
+                    "topLeftRadius": 0,
+                    "topRightRadius": 0,
+                    "bottomLeftRadius": 0,
+                    "bottomRightRadius": 0,
+                    "cornerSmoothing": 0,
+                    "boundVariables": {
+                      "cornerRadius": null,
+                      "topLeftRadius": null,
+                      "topRightRadius": null,
+                      "bottomLeftRadius": null,
+                      "bottomRightRadius": null
+                    }
+                  },
+                  "effects": [],
+                  "exportSettings": null,
+                  "instance": {
+                    "mainComponentId": "13:283",
+                    "mainComponentName": "Type=Standard",
+                    "mainComponentSetId": "13:282",
+                    "componentProperties": {
+                      "Type": {
+                        "type": "VARIANT",
+                        "value": "Standard"
+                      }
+                    },
+                    "overrides": [
+                      {
+                        "id": "I2404:256;14:1533",
+                        "overriddenFields": [
+                          "boundVariables"
+                        ]
+                      },
+                      {
+                        "id": "I2404:256;14:1533;1:500",
+                        "overriddenFields": [
+                          "fills"
+                        ]
+                      }
+                    ],
+                    "resolvedOverrides": [
+                      {
+                        "id": "I2404:256;14:1533;1:500",
+                        "name": "icon",
+                        "overriddenFields": [
+                          "fills"
+                        ],
+                        "fills": [
+                          {
+                            "type": "SOLID",
+                            "hex": "#ffffff",
+                            "opacity": 1,
+                            "boundVariable": {
+                              "id": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                            },
+                            "tokenName": "colours/basic/text",
+                            "tokenId": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  "children": [
+                    {
+                      "id": "I2404:256;14:1533;1:500",
+                      "name": "icon",
+                      "type": "VECTOR",
+                      "visible": true,
+                      "locked": false,
+                      "opacity": 1,
+                      "blendMode": "PASS_THROUGH",
+                      "size": {
+                        "width": 15.600001335144043,
+                        "height": 10.666666984558105
+                      },
+                      "layout": {
+                        "layoutMode": "NONE",
+                        "layoutAlign": "INHERIT",
+                        "layoutGrow": 0,
+                        "layoutSizingHorizontal": "FIXED",
+                        "layoutSizingVertical": "FIXED"
+                      },
+                      "position": null,
+                      "layoutPositioning": "AUTO",
+                      "fills": [
+                        {
+                          "type": "SOLID",
+                          "hex": "#ffffff",
+                          "opacity": 1,
+                          "boundVariable": {
+                            "id": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                          },
+                          "tokenName": "colours/basic/text",
+                          "tokenId": "VariableID:e2840976f50f258a9e5d714de0dcf6a7b9e015bd/2996:3840"
+                        }
+                      ],
+                      "stroke": null,
+                      "radius": {
+                        "cornerRadius": 0,
+                        "cornerSmoothing": 0,
+                        "boundVariables": {
+                          "cornerRadius": null,
+                          "topLeftRadius": null,
+                          "topRightRadius": null,
+                          "bottomLeftRadius": null,
+                          "bottomRightRadius": null
+                        }
+                      },
+                      "effects": [],
+                      "exportSettings": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "standaloneComponents": [],
+  "category": "web"
+}
